@@ -345,3 +345,13 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
     }
 
 }
+
+
+
+***************************************************************************************************************
+
+edits
+gb = new StringBuffer(tm).toString();
+                 gb = tm;
+
+
