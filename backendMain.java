@@ -176,6 +176,7 @@ public class MainActivity extends AppCompatActivity implements ValueEventListene
         firstDatabase.addValueEventListener(this);
         secondDatabase.addValueEventListener(this);
         thirdDatabase.addValueEventListener(this);
+        goodDatabase.addValueEventListener(this);
 
     }
 
