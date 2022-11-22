@@ -73,3 +73,146 @@
         app:layout_constraintVertical_bias="0.356" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+*****************************************************************************************
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6B686C"
+    android:backgroundTint="#1D3039"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="143dp"
+        android:layout_height="58dp"
+        android:text="Status"
+        android:textAlignment="center"
+        android:textColor="#EDE9E9"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="143dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="64dp"
+        android:text="Location"
+        android:textAlignment="center"
+        android:textColor="#F3EBEB"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="143dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="68dp"
+        android:text="Vehicle No"
+        android:textAlignment="center"
+        android:textColor="#ECE1E1"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="209dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="12dp"
+        android:background="#FBF8F8"
+        android:backgroundTint="#F8F7F1"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="143dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="44dp"
+        android:text="Time"
+        android:textAlignment="center"
+        android:textColor="#FBF4F4"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="204dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="16dp"
+        android:background="#FBFAF9"
+        android:textAlignment="center"
+        android:textColor="#100F0F"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="208dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        android:background="#FBFBF4"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="206dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="12dp"
+        android:background="#F4F4EF"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="224dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginEnd="181dp"
+        android:backgroundTint="#05177E"
+        android:text="See Details"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
